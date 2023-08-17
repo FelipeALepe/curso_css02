@@ -1,0 +1,111 @@
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: gray;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.contenedor-grid > div {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+
+.contenedor-grid2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: gray;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.contenedor-grid2 > div {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+
+.contenedor-grid3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: gray;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.contenedor-grid3 > div {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.izq {
+  text-align: left;
+}
+
+.der {
+  text-align: right;
+}
+
+.cent {
+  text-align: center;
+}
+
+.just {
+  text-align: justify;
+}
+
+.over {
+  text-decoration: overline;
+}
+
+.line-t {
+  text-decoration: line-through;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.over-under {
+  text-decoration: overline underline;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.low {
+  text-transform: lowercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.serif {
+  font-family: serif;
+}
+
+.sans {
+  font-family: sans-serif;
+}
+
+.mono {
+  font-family: monospace;
+}
+
+.cur {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+

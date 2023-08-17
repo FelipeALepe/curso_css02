@@ -1,0 +1,52 @@
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  gap: 50px;
+  background-color: gray;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+
+.contenedor-grid > div {
+  background-color: aqua;
+  text-align: center;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+}
+
+.solid {
+  border: 3.5px solid black;
+}
+
+.dotted {
+  border: 3.5px dotted black;
+}
+
+.dashed {
+  border: 3.5px dashed black;
+}
+
+.double {
+  border: 3.5px double black;
+}
+
+.groove {
+  border: 3.5px groove black;
+}
+
+.ridge {
+  border: 3.5px ridge black;
+}
+
+.inset {
+  border: 3.5px inset black;
+}
+
+.outset {
+  border: 3.5px outset black;
+}
+
+
